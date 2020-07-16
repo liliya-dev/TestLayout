@@ -1,13 +1,13 @@
-@import "./description.scss";
-@import "./general.scss";
-@import  "./form.scss";
-@import "./keyframes.scss";
-@import "./errors.scss";
+@import "./styles/description.scss";
+@import "./styles/general.scss";
+@import  "./styles/form.scss";
+@import "./styles/keyframes.scss";
+@import "./styles/errors.scss";
 
 .header {
   width: 100%;
   margin-bottom: 50px;
-  background: url("../images/header/1.png") no-repeat center top;
+  background: url("./images/header/1.png") no-repeat center top;
   background-size: contain;
 
   display: flex;
@@ -83,7 +83,7 @@
     width: 40%;
     padding: 10px;
 
-    background-image: url("../images/header/rectangle-green.png");
+    background-image: url("./images/header/rectangle-green.png");
     background-size: cover;
 
     border-bottom-left-radius: 30px;
@@ -95,7 +95,7 @@
       left: 30%;
       padding-left: 40px;
 
-      background: url("../images/header/car.png") no-repeat;
+      background: url("./images/header/car.png") no-repeat;
       color: rgb(139, 133, 133);
 
       &:hover {
@@ -166,7 +166,7 @@
     transition: transform 0.6s;
     
     &-center::after {
-      content: url("../images/header/arrow.png");
+      content: url("./images/header/arrow.png");
       position: absolute;
       left: calc(50% - 5px);
       top: -45px;
@@ -201,7 +201,7 @@
     position: relative;
   
     &::after {
-      content: url("../images/header/cross.png");
+      content: url("./images/header/cross.png");
       position: absolute;
       left: 0;
     }
